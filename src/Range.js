@@ -49,7 +49,7 @@ module.exports = function Range(str_expression, formula) {
                         row.push(sheet[cell_name]);
                     }
                     else {
-                        row.push(sheet[cell_name].v);
+                        row.push(sheet[cell_name].v === "" ? 0 : sheet[cell_name].v);
                     }
                 }
                 else if (sheet[cell_name]) {
@@ -57,7 +57,7 @@ module.exports = function Range(str_expression, formula) {
                         row.push(sheet[cell_name]);
                     }
                     else {
-                        row.push(sheet[cell_name].v);
+                        row.push(sheet[cell_name].v === "" ? 0 : sheet[cell_name].v);
                     }
                 }
                 else {
