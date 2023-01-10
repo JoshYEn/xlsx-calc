@@ -2,7 +2,7 @@
 
 var webpack = require('webpack');
 var path = require('path');
-var libraryName = 'xlsx-calc';
+var libraryName = 'xlsx-calc-custom';
 var outputFile = libraryName + '.js';
 
 var config = {

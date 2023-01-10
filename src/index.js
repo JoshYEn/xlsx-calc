@@ -38,3 +38,4 @@ mymodule.localizeFunctions = exec_formula.localizeFunctions;
 mymodule.XLSX_CALC = mymodule
 
 module.exports = mymodule;
+console.warn("!!! using CUSTOM xlsx-calc !!!");

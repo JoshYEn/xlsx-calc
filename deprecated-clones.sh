@@ -1,3 +1,3 @@
-cp lib/xlsx-calc.js xlsx-calc.js
-cp lib/xlsx-calc.js xlsx-calc.min.js
-cp lib/xlsx-calc.js.map xlsx-calc.js.map
+cp lib/xlsx-calc-custom.js xlsx-calc-custom.js
+cp lib/xlsx-calc-custom.js xlsx-calc-custom.min.js
+cp lib/xlsx-calc-custom.js.map xlsx-calc-custom.js.map
